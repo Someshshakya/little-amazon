@@ -1,0 +1,44 @@
+.productPreview {
+    width: 50%;
+    position: relative;
+}
+.productPreview > img {
+    width: 100%;
+}
+.timeSection {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ color: white;
+ font-size: 48px;
+ font-weight: 600;
+}
+.heartBeatSection {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+}
+.heartBeatSection > i {
+    color: red;
+    animation: beat 1s infinite;
+   }
+.heartBeatSection > p {
+    margin-top: 16px;
+}
+@keyframes beat {
+    0%{
+        transform: scale(1,1);
+    }
+
+    50%{
+        transform: scale(1.2,1.2);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+}
