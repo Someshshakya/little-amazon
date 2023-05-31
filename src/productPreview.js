@@ -9,7 +9,14 @@ const productPreview = () => {
 
     return (
         <div className={classes.productPreview}>
-          <p>OKk working fine</p>
+              <img src={ProductData.colorOptions[0].imageUrl} alt={ProductData.colorOptions[0].styleName}></img>
+              <div className={classes.timeSection}>
+              <p>{`${currentHour} : ${currentMinute}`}</p>
+              </div>
+              {/* <div className={classes.heartBeatSection}>
+                  <i class="fa-solid fa-heart-pulse"></i>
+                  <p>78</p>
+              </div> */}
       </div>
     )
 }
