@@ -4,20 +4,20 @@ import classes from './ProductDetails.module.css'
 const ProductDetails = function (props) {
     const colorOptions = props.data.colorOptions.map((item, pos) => {
         const classArr = [classes.ProductImage]
-        if (pos === 0) {
+        if (pos === props.currentPreviewImagePos) {
             classArr.push(classes.SelectedProductImage)
         }
         return (
-            <img className={classArr.join(' ')} key={pos} src={item.imageUrl} alt={item.styleName}></img>
+            <img className={classArr.join(' ')} key={pos} src={item.imageUrl} alt={item.styleName} onClick={()=>props.onColorOptionClick(pos)}></img>
          )
     })
     const featureList = props.data.featureList.map((item, pos) => {
         const classArr = [classes.FeaturesItem]
-        if (pos === 0) {
+        if (pos === props.currentSelectedFeature) {
             classArr.push(classes.SelectedFeatureItem)
         }
         return (
-            <button key={pos} className={classArr.join(' ')}>{item}</button>
+            <button key={pos} className={classArr.join(' ')} onClick={()=> props.onFeatureItemClick(pos)}>{item}</button>
 
         )
     })
