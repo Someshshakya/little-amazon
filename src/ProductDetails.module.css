@@ -1,27 +1,27 @@
-.productData {
+.ProductData {
     width: 100%;
 }
-.productTitle {
+.ProductTitle {
     font-weight: 600;
     font-size: 48px;
     margin-bottom:16px;
 }
-.productDescription {
+.ProductDescription {
     font-size: 20px;
     color:rgba(0,0,0,0.8);
     margin-top:0;
     margin-bottom:16px;
 }
-.productColorImages {
+.ProductColorImages {
     height:15vh;
     width: auto;
 }
-.sectionheading {
+.Sectionheading {
     font-size: 6vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
 }
-.featuresItem {
+.FeaturesItem {
     background-color:gainsboro;
     border-radius: 8px;
     border:0;
@@ -32,12 +32,12 @@
     font-weight: 600;
     box-sizing: content-box;
 }
-.selectedFeatureItem {
+.SelectedFeatureItem {
     background-color:gray;
     color:#FFFFFF;
 }
 
-.productImage {
+.ProductImage {
     width: 100%;
     max-width: 80px;
     border: 2px solid transparent;
@@ -45,15 +45,15 @@
     margin-right: 12px;
     cursor: pointer;
 }
-.selectedProductImage {
+.SelectedProductImage {
     border: 2px solid teal;
 }
-.sectionheading {
+.Sectionheading {
     font-size: 28px;
     margin-bottom: 8px;
 }
 
-.primaryButton {
+.PrimaryButton {
     color: white;
     background-color:teal;
     font-size: 20px;

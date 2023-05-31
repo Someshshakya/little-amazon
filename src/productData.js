@@ -1,4 +1,3 @@
-import React from "react";
 const ProductData = {
     title: 'FitBit 19 - The Smartest Watch',
     description: 'Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor.',

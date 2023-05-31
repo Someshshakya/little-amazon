@@ -1,6 +1,5 @@
 import classes from './App.module.css'
-import ProductData from './productData';
-import ProductPreview from './productPreview';
+import ProductPreview from './ProductPreview';
 import ProductDetails from './ProductDetails';
 import TopBar from './TopBar';
 
@@ -9,12 +8,12 @@ function App() {
     <div className="App">
         {/* top nav bar */}
          <TopBar/>
-      <div className={classes.mainContainer}>
+      <div className={classes.MainContainer}>
         {/* product preview  section*/}
-        <div className={classes.productPreview}>
+        <div className={classes.ProductPreview}>
           <ProductPreview />
         </div>
-        <div className={classes.productData}>
+        <div className={classes.ProductData}>
           {/* product details section  */}
           <ProductDetails />
           </div>
